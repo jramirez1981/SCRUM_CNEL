@@ -9,6 +9,7 @@ public class CalculaDistancia {
 	
 		private double DistaActual;
 		private double no_usado;
+		private double no_usado1;
 	    private static final int EARTH_RADIUS = 6371; // Approx Earth radius in KM
 
 	    public double distance(double startLat, double startLong,
