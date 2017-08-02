@@ -8,6 +8,7 @@ import ar.com.curso.poi.model.Pois;
 public class CalculaDistancia {
 	
 		private double DistaActual;
+		private double no_usado;
 	    private static final int EARTH_RADIUS = 6371; // Approx Earth radius in KM
 
 	    public double distance(double startLat, double startLong,
